@@ -3,9 +3,12 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <link rel="icon" href="./icon.svg"/>
+    <title>Last Summer Sale</title>
     <style>
-        h1 {
+
+
+        h1{
             color: #8E26C0;
             font-family: "JetBrains Mono";
             font-size: 64px;
@@ -14,10 +17,125 @@
             line-height: normal;
             text-transform: capitalize;
         }
+        
+        #second {
+            color: #F00;
+            font-family: Lato;
+            font-size: 32px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: normal;
+
+            background-color: #FFE8E8;
+            display: flex;
+            width: 565px;
+            padding: 24px 40px;
+            align-items: center;
+            gap: 10px;
+            }
+
+            #third{
+            flex: 1 0 0;                
+            color: #85647B;
+            text-align: center;
+            font-family: Lato;
+            font-size: 40px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: normal;
+
+            display: flex;
+            width: 1023px;
+            padding: 24px 40px;
+            align-items: center;
+            gap: 10px;
+
+            border-top:  4px solid#00C76E;
+            border-right: 6px solid #05F;
+            border-left: 4px solid #C11574;
+            border-bottom:4px solid#7F56D9;
+            }
+
+            #fourth {
+            color: #414651;
+            text-align: center;
+            font-family: Lato;
+            font-size: 32px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: normal;
+
+            display: flex;
+            width: 1023px;
+            padding: 24px 40px;
+            align-items: center;
+            gap: 10px;
+            background: #FFE8E8;
+            }
+            
+            #discount{
+            color: #FF4405;
+            font-family: Lato;
+            font-size: 40px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: normal;
+            text-decoration-line: underline;
+            text-decoration-style: solid;
+            text-decoration-skip-ink: auto;
+            text-decoration-thickness: auto;
+            text-underline-offset: auto;
+            text-underline-position: from-font;
+            }
+
+            #fifth{
+                flex: 1 0 0;
+                color: #0064CE;
+                text-align: right;
+                font-family: Lato;
+                font-size: 32px;
+                font-style: normal;
+                font-weight: 400;
+                line-height: normal;
+                display: flex;
+                width: 1069px;
+                padding: 24px 40px;
+                align-items: center;
+                gap: 10px;
+                border: 2px solid #3538CD;
+            }
+         
+         img{
+            width: 556px;
+            height: 347px;
+            flex-shrink: 0;
+            background: url(<path-to-image>) lightgray 50% / cover no-repeat;
+         }
+
+       
     </style>
 
 </head>
 <body>
     <h1>Last Summer Sale</h1>
+
+
+    <div id="second">
+    Don't miss this amazing chance!</div>
+
+    <br/>
+    <div id="third">
+        Take advantage of our exclusive offer and get your
+         favorite products at incredible discounts.
+    </div>
+    <br/>
+    <div id="fourth">The end of season sale is here,
+         with up to <span id="discount">%70</span> off on a wide range of items</div>
+    <br/>
+    <div id="fifth">Hurry, this opportunity won’t last long-shop now and save big!</div>
+
+<br/>
+
+    <img src="./image 6.png"/>
 </body>
 </html>
